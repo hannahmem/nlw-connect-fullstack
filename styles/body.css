@@ -1,0 +1,71 @@
+.about-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-purple);
+    font: var(--body-xs);
+}
+
+#radio-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.subscription-container {
+    gap: 24px;
+}
+
+form {
+    display: grid;
+    gap: 22px;
+}
+
+.input-wrapper {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 48px;
+    background-color: var(--color-gray-800);
+    border: solid 1px var(--color-gray-600);
+    border-radius: 10px;
+    padding: 0 16px;
+    
+}
+
+input {
+    font: var(--body-md);
+    color: var(--color-gray-100);
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    font: var(--body-md);
+    color: var(--color-gray-400);
+}
+
+.input-group:focus-within {
+    outline: solid 2px var(--color-gray-400);
+}
+
+.input-icon {
+    color: var(--color-gray-400);
+}
+
+#arrow-icon {
+    width: 24px;
+}

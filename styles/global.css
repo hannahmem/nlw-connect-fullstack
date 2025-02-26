@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-blue: #6F9DE2;
+    --color-purple: #9871F3;
+    --color-danger: #F05D6C;
+    --color-gray-100: #DAE4F2;
+    --color-gray-200: #C8D0DA;
+    --color-gray-300: #95A1B1;
+    --color-gray-400: #6F7D90;
+    --color-gray-500: #2A313C;
+    --color-gray-600: #21252C;
+    --color-gray-700: #191D24;
+    --color-gray-800: #13161B;
+    --color-gray-900: #0F1216;
+
+    --font-heading: 'Oxanium', serif;
+    --font-body: 'Montserrat', serif;
+
+    --heading-sm: 600 20px/100% var(--font-heading);
+    --heading-md: 600 24px/100% var(--font-heading);
+    --heading-lg: 600 40px/100% var(--font-heading);
+
+    --body-xs: 600 12px/160% var(--font-body);
+    --body-sm: 400 14px/160% var(--font-body);
+    --body-md: 400 16px/160% var(--font-body);
+    --button: 600 16px/160% var(--font-body);
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-gray-700);
+    border-radius: 15px;
+    padding: 24px;
+}
+
+#logo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 180.5px;
+    height: 30px;
+}
+
+main {
+    max-width: 368px;
+    display: grid;
+    gap: 1.25rem;
+}
+
+body {
+    padding: 2rem 1rem;
+    font: var(--body-sm);
+    color: var(--color-gray-300);
+    background: url("../assets/background.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+#title {
+    color: var(--color-blue);
+}
+
+#subtitle {
+    color: var(--color-gray-100);
+}
+
+h1 { 
+    font: var(--heading-lg);
+}
+
+h3 {
+    font: var(--heading-sm);
+}
+
+h5 {
+    font: var(--heading-md);
+    color: var(--color-gray-200);
+}
+
+button {
+    color: var(--color-blue);
+    font: var(--button);
+    background-color: var(--color-gray-500);
+    border: none;
+    border-radius: 10px;
+    height: 48px;
+    padding: 0 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+button:hover {
+    color: var(--color-gray-900);
+    background-color: var(--color-blue);
+}

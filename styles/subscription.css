@@ -1,0 +1,45 @@
+.page-invite {
+    text-align: center;
+}
+
+.header {
+    align-text: center;
+}
+
+#confirmed-inscription {
+    color: var(--color-purple);
+}
+
+.invitation-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 48px;
+    background-color: var(--color-gray-800);
+    border: solid 1px var(--color-gray-600);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.counter-container {
+    background-color: var(--color-gray-600);
+    margin-top: 4px;
+    height: 98px;
+    position: relative;
+}
+
+#link {
+    font: var(--body-md);
+    color: var(--color-gray-100);
+}
+
+#link-icon {
+    height: 20px;
+    width: 20px;
+}
+
+#check-icon {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
